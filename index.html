@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+  
+  <!-- By Maria Nguyen -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Awesome book generated with boockup.marco.land">
@@ -12,22 +14,32 @@
      <!-- JavaScript Bundle with Popper -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
      <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link rel="stylesheet" href="bootstrap.css">
+     <link rel="stylesheet" href="index.css">
 
-     <link rel=“stylesheet” type="text/css" href="style.css">
      <link rel="stylesheet" href="Boockup/css/boockup.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
 
      <script src="https://kit.fontawesome.com/17657d6095.js" crossorigin="anonymous"></script>
 
 
 </head>
-<body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light p-3 px-5 sticky-top ">
-        <div class="container-fluid p-0">
-          <a class="navbar-brand" href="#">Maria Nguyen</a>
+<body class= "loaded">
+  <!-- <div id="loading">
+    <img id="loading-image" src="images/ajax-loader.gif" alt="Loading..." />
+  </div> -->
 
+  <div class="cursor"></div>
+  <div class="cursor"></div>
+
+ 
+  
+<!-- Nav bar -->
+    <nav data-aos="fade-down" data-aos-once="true" class="navbar navbar-expand-lg navbar-light p-3 px-5 sticky-top ">
+        <div class="container-fluid p-0">
+          <a class="maria top" href="#top">Maria&nbsp;Nguyen</a>
         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <div class="close-icon py-1"> Projects ⬇</div>
@@ -65,29 +77,21 @@
               
             </ul>
 
-
           </div>
 
-
-          
         </div>
-
-
 
       </nav>
 
-      
-
-
 
       <!-- Main content section -->
-      <div class="container-fluid px-5 py-3">
+  <div id="content" data-aos="fade-up" data-aos-duration="300" data-aos-offset="0" class="container-fluid px-5 py-3">
       
       <!-- Intro -->
 
         <div class="row">
 
-          <div class="col-sm-4  ">
+          <div class="col-sm-12 col-md-4">
             <h2>Maria is a mixed-media designer whose practice involves lots of play and banana bread. She enjoys challenging traditional conventions and talking in the third person.
             </h2>
           </div>
@@ -106,23 +110,16 @@
               <a href="tel:0411846065" target="_blank"><i class="fas fa-phone fa-sm"></i></a>
               <a href="https://www.linkedin.com/in/maria-nguyen-615b11141/"target="_blank" ><i class="fab fa-linkedin-in"></i> </a>
               <a href="https://github.com/maz9999"target="_blank" ><i class="fab fa-github"></i> </a>
-              <!-- <a href="https://www.are.na/maria-nguyen" target="_blank"> <img class="img-fluid" style="height:50px;" src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/451612-8c831c1f62b6599488c00106e3eaace9-medium_jpg.jpg"></a> -->
+              <a href="https://www.are.na/maria-nguyen" target="_blank">Are.na</a>
             </div>
           </div>
-
-          
-
-
-
-
-
 
         </div>
 
         <hr id="Across-the-seas" class="mt-4 mb-4"/>
 
     <!-- Across the seas -->
-
+      <section data-aos="fade-up" data-aos-duration="1500">
         <div class="row pt-2">
 
           <div class="col-sm-12 col-md-6 col-lg-3">
@@ -133,9 +130,13 @@
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-9">
-            <img src="https://freight.cargo.site/t/original/i/bfa3c6e24ad31ac3c41b23e6b56cec1bddd949e1ee137ac8fdb18516fd066baf/Acrosstheseas_01.jpg" class="img-fluid w-100" id="Project-two-one" alt="Across the seas header">
+            <!-- <div style="background: linear-gradient(rgba(3, 34, 47, 0.8); width:100%;height:250px; padding-top:50%; position:relative;"> -->
+              <img src="https://freight.cargo.site/t/original/i/bfa3c6e24ad31ac3c41b23e6b56cec1bddd949e1ee137ac8fdb18516fd066baf/Acrosstheseas_01.jpg" class="img-fluid w-100" alt="Across the seas header">
+            <!-- </div> -->
+          
+          
           </div>
-        </div>
+       </div>
 
 
 
@@ -171,142 +172,143 @@
             </div>
             
           </div>
+      </section>
 
           <hr id="Instagram-Market" class="mt-4 mb-4"/>
   <!-- Instagram Market  -->
 
-        <section >
+        <section data-aos="fade-up" data-aos-duration="1500" >
           <div class="row pt-2">
             <div class="col-sm-12 col-md-6 col-lg-3">
               <h1>Instagram Market</h1>   
               <p> Instagram Market is a sustainable marketplace aimed at targeting the youth. The campaign leverages Instagram’s existing brand to achieve a vibrant and contemporary aesthetic, placing heightened value on our relationship to the product rather than its materialistic attributes.</p>
               <h4> Typeface: <span style="font-family: Maison Neue-Medium"> Neue Haas Grotesque, Cardinal Fruit</span>
                <br>Year: <span style="font-family: Maison Neue-Medium">  2020 </span> 
-               <br> In collobration with: <span style="font-family: Maison Neue-Medium"> <a href="https://www.alexdarbyshiredesign.com/">Alex Darbyshire</a></h4>
+               <br> In collobration with: <span style="font-family: Maison Neue-Medium"> <a target="_blank" href="https://www.alexdarbyshiredesign.com/">Alex Darbyshire</a></h4>
             </div>
   
             <div class="col-sm-12 col-md-6 col-lg-9">
-              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/477565384?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="border-radius:20px !important;position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <div loading="lazy" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/477565384?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="border-radius:20px !important;position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
           </div>
 
 <!-- Upload video or gif instead of embedding vimeo  -->
           <div class="row my-0 p-0">
             <div class="col-12">
-              <div class="video " style="padding:67.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/477852742?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="border-radius:20px !important;position:absolute;top:-20px;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <div loading="lazy" class="video" style="padding:67.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/477852742?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="border-radius:20px !important;position:absolute;top:-20px;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
           </div>
 
 
           <div class="row m-n5 p-0">
             <div class="col-sm-12 col-md-6 col-lg-6 ">
-              <img src="Images/IM-AR-Filter-GIF.gif" class="img-fluid img-fit"  alt="Instagram Market AR Filter gif">
+              <img loading="lazy" src="Images/IM-AR-Filter-GIF.gif" class="img-fluid img-fit"  alt="Instagram Market AR Filter gif">
             </div>
   
             <div class="col-sm-12 col-md-6 col-lg-6 ">
-              <img src="Images/IM-product.gif" class="img-fluid img-fit"  alt="Instagram Market Product gif"> 
+              <img loading="lazy" src="Images/IM-product.gif" class="img-fluid img-fit"  alt="Instagram Market Product gif"> 
             </div>
             
           </div>
         </section>
 
-
+    
         <hr id="Transcendence" class="mt-4 mb-4"/>
 
    <!-- Transcendence -->
 
-   <section>
-    <div class="row pt-2">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <h1>Transcendence</h1>   
-        <p> Transcendence is a project driven by the desire to shift perceptions of what traditional art or design can be. To turn the undesirable desirable through an immersive Augmented reality installation, exhibiting 8 digital sculptures at the Queen Victoria Gardens. </p>
-        <h4> Typeface: <span style="font-family: Maison Neue-Medium"> Voyage </span>
-         <br>Year: <span style="font-family: Maison Neue-Medium">  2020 </span> </h4>
+        <section data-aos="fade-up" data-aos-duration="1500">
+      <div class="row pt-2">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h1>Transcendence</h1>   
+          <p> Transcendence is a project driven by the desire to shift perceptions of what traditional art or design can be. To turn the undesirable desirable through an immersive Augmented reality installation, exhibiting 8 digital sculptures at the Queen Victoria Gardens. </p>
+          <h4> Typeface: <span style="font-family: Maison Neue-Medium"> Voyage </span>
+          <br>Year: <span style="font-family: Maison Neue-Medium">  2020 </span> </h4>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-9">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474156706?loop=1&title=0&byline=0&portrait=0" style="border-radius:20px !important; position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-9">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/474156706?loop=1&title=0&byline=0&portrait=0" style="border-radius:20px !important; position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+      <div class="row my-0 p-0">
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+          <img src="Images/Transcendence-03.gif" class="img-fluid img-fit"  alt="Transcendence 3D scene">
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+          <img src="Images/Transcendence-AR-view.gif" class="img-fluid img-fit"  alt="Across the seas website gif"> 
+        </div>
+        
       </div>
-    </div>
 
 
-    <div class="row my-0 p-0">
-      <div class="col-sm-12 col-md-6 col-lg-6 ">
-        <img src="Images/Transcendence-03.gif" class="img-fluid img-fit"  alt="Transcendence 3D scene">
+      <div class="row my-0 p-0">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://dimension.adobe.com/gltf/embed.html?assetId=9fa44c12-d572-428b-a9de-76a351840451" class="img-fluid img-fit" style="border-radius:20px !important; position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+          <figcaption> Click play to orbit around the installation in the 3D space</figcaption>
+        </div>
       </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-6 ">
-        <img src="Images/Transcendence-AR-view.gif" class="img-fluid img-fit"  alt="Across the seas website gif"> 
-      </div>
-      
-    </div>
-
-
-    <div class="row my-0 p-0">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://dimension.adobe.com/gltf/embed.html?assetId=9fa44c12-d572-428b-a9de-76a351840451" class="img-fluid img-fit" style="border-radius:20px !important; position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-        <figcaption> Click play to orbit around the installation in the 3D space</figcaption>
-      </div>
-    </div>
-     </section>
+        </section>
 
 
 
     <hr id="Savers" class="mt-4 mb-4"/>
 
      <!-- Savers -->
-     <section>
-      <div class="row pt-2">
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <h1>Savers</h1>   
-          <p> A re-brand of the opportunity shop Savers which aims to shift attitudes and negative connotations towards the nature of shopping second-hand by incorporating a high fashion into slow fashion outlook.  </p>
-          <h4> Typeface: <span style="font-family: Maison Neue-Medium"> Editorial New, Labil Grotesque </span>
-           <br>Year: <span style="font-family: Maison Neue-Medium">  2019 </span> </h4>
+      <section data-aos="fade-up" data-aos-duration="1500">
+        <div class="row pt-2">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <h1>Savers</h1>   
+            <p> A re-brand of the opportunity shop Savers which aims to shift attitudes and negative connotations towards the nature of shopping second-hand by incorporating a high fashion into slow fashion outlook.  </p>
+            <h4> Typeface: <span style="font-family: Maison Neue-Medium"> Editorial New, Labil Grotesque </span>
+            <br>Year: <span style="font-family: Maison Neue-Medium">  2019 </span> </h4>
+          </div>
+    
+          <div class="col-sm-12 col-md-6 col-lg-9">
+            <img src="Images/Savers-branding-ethical-header.jpg" class="img-fluid img-fit"  alt="Savers-branding-ethical-header">
+          </div>
         </div>
-  
-        <div class="col-sm-12 col-md-6 col-lg-9">
-          <img src="Images/Savers-branding-ethical-header.jpg" class="img-fluid img-fit"  alt="Savers-branding-ethical-header">
+
+        <div class="row my-0 p-0">
+          <div class="col-12">
+            <img src="Images/Savers_branding_posterwall.jpg" class="img-fluid img-fit"  alt="Savers-branding-ethical-header">
+
+          </div>
         </div>
-      </div>
-
-      <div class="row my-0 p-0">
-        <div class="col-12">
-          <img src="Images/Savers_branding_posterwall.jpg" class="img-fluid img-fit"  alt="Savers-branding-ethical-header">
-
-        </div>
-      </div>
 
 
 
 
-     </section>
+      </section>
 
 
 
      <hr id="Emma" class="mt-4 mb-4"/>
 
      <!-- Emma -->
-     <section>
-      <div class="row pt-2">
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <h1>Emma</h1>   
-          <p> Inspired by the warmth and radiance of a sunflower, Emma James is a boutique jewellery label that carves new meaning to luxury within hand-made, sustainable and unique creations.   </p>
-          <h4>
-           Year: <span style="font-family: Maison Neue-Medium"> 2020 </span> </h4>
-        </div>
-  
-        <div class="col-sm-12 col-md-6 col-lg-9">
-          <img src="Images/Emma-branding-logo.jpg" class="img-fluid img-fit"  alt="Emma branding logo">
-        </div>
-      </div>
-     </section>
+        <section data-aos="fade-up" data-aos-duration="1500">
+          <div class="row pt-2">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <h1>Emma</h1>   
+              <p> Inspired by the warmth and radiance of a sunflower, Emma James is a boutique jewellery label that carves new meaning to luxury within hand-made, sustainable and unique creations.   </p>
+              <h4>
+              Year: <span style="font-family: Maison Neue-Medium"> 2020 </span> </h4>
+            </div>
+      
+            <div class="col-sm-12 col-md-6 col-lg-9">
+              <img src="Images/Emma-branding-logo.jpg" class="img-fluid img-fit"  alt="Emma branding logo">
+            </div>
+          </div>
+        </section>
 
 
     <hr id="FYA" class="mt-4 mb-4"/>
 
 
   <!-- FYA Magazine -->
-     <section>
+     <section data-aos="fade-up" data-aos-duration="1500">
       <div class="row pt-2">
         <div class="col-sm-12 col-md-6 col-lg-3">
           <h1>FYA Magazine</h1>   
@@ -330,8 +332,8 @@
               </div>
             </div>
           </div>
-         </div> 
-        </div>
+        </div> 
+      </div>
 
         <div class="row my-0 p-0">
           <div class="col-sm-12 col-md-6 col-lg-6 ">
@@ -343,74 +345,24 @@
           </div>
           
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
      </section>
 
-     
+   </div>
+   </div>
 
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
       
-
-
-
-     
-
-      </div>
-
-
-
-
-
-
-
-
-
-
-
+      
+      <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/jquery-awesome-cursor/dist/jquery.awesome-cursor.min.js"></script></pre> -->
+      <script src="index.js"></script>
 
 </body>
 </html>
