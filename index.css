@@ -45,7 +45,7 @@
   .cursor:nth-child(2) {
     background-color: rgb(43, 255, 0);
     z-index: 800;
-  }
+  }s
 
 .video {
    border-radius:30px !important;
