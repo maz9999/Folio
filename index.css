@@ -69,7 +69,7 @@ nav, h2  {
   
 }
 nav {
-  background-color:rgba(255, 255, 255);
+  background-color:rgba(255, 255, 255, 0.5);
   z-index: -9999 ;
 }
 .maria{
@@ -243,21 +243,7 @@ a:hover {
   100%{
     transform: rotate(360deg);
   }
-
 }
-
-
-/* @media only screen and (max-width: 640px) {
-.video {
-    opacity: 0;
-    clear: both;
-}
-} */
-/* 
-.video__player_wrapper {
-  position: relative;
-  padding-bottom: 100%;
-} */
 
 iframe {
   position: relative;
