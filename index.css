@@ -82,13 +82,14 @@ nav {
 
 }
 h1 {
+  font-size: 4vh;
   text-transform: uppercase;
   letter-spacing: -0.035em;
 }
 
 p {
   font-family: Junicode Italic, serif;
-  font-size: 23px;
+  font-size: 2.5vh;
   line-height: 110.11%;
   letter-spacing: 0.01em;
 }
@@ -160,29 +161,8 @@ align-items: flex-start;
   
 }
 
-@media (max-width: 992px) {
-  .navbar-nav{
-    text-align: right;
-    padding-top: 0.1rem;
-     }
-  .nav-link {
-    margin-right: 0px;
-  }
-  #navbarNavDropdown {
-    position: absolute;
-    top: 70px;
-    right: 1rem;
-    z-index: 1;
-  }
-  .book-container  {
-    zoom: 0.5;
-    -moz-transform: scale(0.5);
-  }
-}
-
 img {
   border-radius: 20px;
-  background-color:  #2eff2e;
   z-index: -1;
 }
 
@@ -204,8 +184,6 @@ a:hover {
   align-items: center;
   width: 100%;
 }
-
-
 
 .loader{
   display: flex;
@@ -254,3 +232,31 @@ iframe {
   border-radius: 20px;
 }
 
+@media (max-width: 992px) {
+  .navbar-nav{
+    text-align: right;
+    padding-top: 0.1rem;
+     }
+  .nav-link {
+    margin-right: 0px;
+  }
+  #navbarNavDropdown {
+    position: absolute;
+    top: 70px;
+    right: 1rem;
+    z-index: 1;
+  }
+  .book-container  {
+    zoom: 0.5;
+    -moz-transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 1212px) and (min-width: 991px)  {
+  .navbar-nav{
+    zoom: 0.8;
+  }
+  .nav-link{
+    border: 2.5px solid #000000;
+  }
+}

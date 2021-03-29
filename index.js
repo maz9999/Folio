@@ -1,5 +1,4 @@
-// AOS.init({
-//   });
+
 
 $(document)
   .mousemove(function(e) {
@@ -29,3 +28,6 @@ const loader = document.querySelector(".loader");
         }, 500);
         }, 1500);
       }
+
+      
+ 
