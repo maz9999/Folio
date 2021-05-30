@@ -38,12 +38,12 @@
   }
   
   .cursor:nth-child(1) {
-    background-color: #E74C3C;
+    background-color: rgb(43, 255, 0);
     z-index: 999;
   }
   
   .cursor:nth-child(2) {
-    background-color: rgb(43, 255, 0);
+    background-color:  #CDA3FB;
     z-index: 800;
   }s
 
@@ -89,7 +89,7 @@ h1 {
 
 p {
   font-family: Junicode Italic, serif;
-  font-size: 2.2vh;
+  font-size: 3vh;
   line-height: 110.11%;
   letter-spacing: 0.01em;
 }
