@@ -49,12 +49,12 @@
 
 .video {
    border-radius:30px !important;
+  
   }
 
 .video-mask{
-    width: 350px;
-    border-radius: 10px; 
-    overflow: hidden; 
+    border-radius: 40px; 
+    overflow:visible; 
 }
 
 .row {
@@ -219,7 +219,7 @@ a:hover {
   content: "";
   height: 128%;
   width: 128%;
-  border: 5px solid #CDA3FB;
+  border: 5px solid #0a0a0a;
   border-radius: 50%;
   border-top-color:  transparent;
   animation: rotate 1.5s linear infinite;
